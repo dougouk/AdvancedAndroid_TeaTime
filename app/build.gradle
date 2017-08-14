@@ -25,9 +25,10 @@ dependencies {
     compile 'com.google.android.gms:play-services-appindexing:9.8.0'
 
     // Testing-only dependencies
+    compile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
+
     androidTestCompile 'com.android.support:support-annotations:25.1.0'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
-
-    // TODO (5) Add build dependencies required to use Espresso-Intents
+    androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.2.2'
 
 }
